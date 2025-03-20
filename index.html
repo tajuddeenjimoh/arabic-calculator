@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BASIC CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>حاسبة أساسية لإدخال رقمين وإجراء كافة العمليات في نفس الوقت.</h1>
+        <label for="num1">أدخل الرقم الأول</label>
+        <input type="number" id="num1" required>
+        
+        <label for="num2">أدخل الرقم الثاني</label>
+        <input type="number" id="num2" required>
+
+        <button onclick="calculate()">احسب</button>
+
+        <h2>نتائج</h2>
+        <p id="إضافة">إضافة</p>
+        <p id="الطرح">الطرح</p>
+        <p id="الضرب">الضرب</p>
+        <p id="قسم">قسم</p>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
